@@ -5,7 +5,7 @@
  * Autor: Guilherme Lague
  * E-mail: guilhermelaguebmx@gmail.com
  * Descrição: Implementação do algoritmo first-fit
- * Criado em: 5 de Junho de 2017, 19:54
+ * Criado em: 5 de Junho de 2017, 19:54 merda
  */
 
 #include <stdio.h>
