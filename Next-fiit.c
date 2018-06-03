@@ -55,7 +55,7 @@ void inserir_bloco(int id, int tam);
 // FILE* file: Ponteiro para o arquivo
 //================================================================================
 void cria_arquivo(FILE* file){
-    file = fopen("C:/Users/Guilherme Lague/Desktop/nf.txt","w+t");
+    file = fopen("C:/nf.txt","w+t");
     
     fprintf(file,"%d %d\n", 1, 10);
     fprintf(file,"%d %d\n", 2, 4);
@@ -75,7 +75,7 @@ void cria_arquivo(FILE* file){
 void le_arquivo(FILE* file){
     int id, tam;
     
-    file = fopen("C:/Users/Guilherme Lague/Desktop/nf.txt","rt");
+    file = fopen("C:/nf.txt","rt");
     while(!feof(file)){
         fscanf(file, "%d %d", &id, &tam);
         inserir_bloco(id, tam);
