@@ -23,6 +23,7 @@ typedef struct bloco{
     int tam_bloco;
     int id_processo;
     struct bloco *prox;
+
 }bloco;
 
 //================================================================================
@@ -67,6 +68,7 @@ void cria_arquivo(FILE* file){
 }
 
 //================================================================================
+// Esta função le os dados do arquivo criado
 // FILE* file: Ponteiro para o arquivo
 //================================================================================
 void le_arquivo(FILE* file){
