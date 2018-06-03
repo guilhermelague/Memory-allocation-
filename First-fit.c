@@ -2,9 +2,9 @@
  * Instituição: UERGS
  * Curso: Engenharia de computação
  * Arquivo: First-fit.c
- * Autor: Guilherme
+ * Autor: Guilherme Lague
  * E-mail: guilhermelaguebmx@gmail.com
- * Descrição: Implementação 
+ * Descrição: Implementação do algoritmo first-fit
  * Criado em: 5 de Junho de 2017, 19:54
  */
 
